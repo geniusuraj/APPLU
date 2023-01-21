@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+    font-family: Poppins;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 4.4rem;
+    background-color: rgba(0,0,0,.8);
+    backdrop-filter: blur(2rem);
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+
+}
+.nav-list-mobile{
+    display: none;
+
+}
+
+.nav-link{
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 0 1rem;
+    transition:.5s;
+}
+
+.nav-link:hover{
+    opacity: .7;
+}
+
+.nav-link-applu{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(./images/icons8-apple-vitaliy-gorbachev-lineal-32.png) center no-repeat;
+}
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(./images/search.svg) center no-repeat;
+}
+.nav-link-bag{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url(./images/bag.svg) center no-repeat;
+}
+.iphone-14-pro{
+    background: url(./images/hero_iphone14pro.jpg);
+    margin-top: 4.4rem;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    padding-top: 5.5rem;
+
+}
+.title-heading{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+}
+.title-sub-heading{
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+
+}
+.round{
+    display: inline-block;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 1.6rem;
+}
+.round1{
+    display: inline-block;
+    border-radius: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 1.6rem;
+}
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.cta-link{
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+}
+
+.iphone-14{
+    background: url(./images/hero_iphone14.jpg);
+}
+
+.title-dark{
+    color: #000;
+}
+.cta-link-darker{
+    color: #0070c9;
+}
+.cta-link:hover{
+    border-bottom-color: #0070c9;
+}
+.watch{
+    background: url(./images/watch.jpg);
+    /* padding-top: 5rem; */
+}
+.title-heading-watch{
+    height: 7.8rem;
+    background: url(./images/watch\ 8.png) center no-repeat;
+    background-size: auto 7.8rem;
+    background-color: #000;
+}
+.whiteee{
+    color: #fff;
+}
+.hero{
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+.iphone-14-pro{
+    border-top: none;
+}
+
+/* @media screen and (max-width: 1060px){
+    .iphone-14-pro{
+        background: ;
+    }
+} */
